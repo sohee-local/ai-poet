@@ -3,10 +3,10 @@ import time
 from langchain.chat_models import init_chat_model
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import os
 
-load_dotenv()
+# load_dotenv()
 api_key = os.getenv('OPENAI_API_KEY')
 
 st.title("_AI 시인_ :sunglasses:") #_xx_ 는 italic 체를 의미
